@@ -1,0 +1,63 @@
+name: Bug report
+description: Report incorrect behavior or a crash
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please avoid pasting real API tokens or passwords.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Clear description of the bug.
+      placeholder: e.g. Product list stays on loading spinner after pull-to-refresh.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run against local API at …
+        2. Sign in with demo account
+        3. Open Favorites tab
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: App / Xcode version
+      placeholder: e.g. 1.0.0, Xcode 15.4, iOS 17.5 Simulator
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - iOS Simulator
+        - Physical device
+        - CI (GitHub Actions)
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Console output, Xcode error, or screenshot. Redact secrets.
+    validations:
+      required: false

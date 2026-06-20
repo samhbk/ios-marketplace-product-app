@@ -1,0 +1,42 @@
+name: Feature request
+description: Suggest an improvement within project scope
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repo is a portfolio marketplace **iOS client**. Large scope changes may be declined — discuss first for net-new product areas.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What user or engineering problem would this solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How should it work? Keep it concrete.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: Fits existing marketplace client (auth, catalog, detail, favorites)
+          required: false
+        - label: I am willing to contribute a PR
+          required: false
