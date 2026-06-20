@@ -71,7 +71,7 @@ private struct ProfileView: View {
             }
 
             Section("App") {
-                LabeledContent("Version", value: "1.0.0")
+                LabeledContent("Version", value: Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "—")
                 LabeledContent("API host", value: environment.configuration.baseURL.host ?? "Local")
             }
 

@@ -5,7 +5,15 @@
 [![Swift](https://img.shields.io/badge/Swift-5.9-orange?logo=swift&logoColor=white)](https://swift.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**Senior-grade SwiftUI marketplace client** — MVVM, Combine, JWT auth, paginated REST, Keychain, favorites sync, design system, and XCTest. Pairs with [`laravel-marketplace-platform`](https://github.com/sameh-bakleh/laravel-marketplace-platform) for a full-stack portfolio demo.
+📓 [Changelog](CHANGELOG.md)
+
+| | |
+|---|---|
+| **Repo** | [`ios-marketplace-product-app`](https://github.com/sameh-bakleh/ios-marketplace-product-app) |
+| **Stack** | Swift 5.9 · SwiftUI · MVVM · Combine · Alamofire · Keychain · XcodeGen |
+| **Backend** | [`laravel-marketplace-platform`](https://github.com/sameh-bakleh/laravel-marketplace-platform) |
+
+**Senior-grade SwiftUI marketplace client** — MVVM, Combine, JWT auth, paginated REST, Keychain, favorites sync, design system, and XCTest. Pairs with the Laravel API above for a full-stack portfolio demo.
 
 > **30-second summary:** Production-style iOS app (login → browse → detail → favorites) with protocol-oriented services, typed errors, loading/empty/error UX, and CI — built the way EU product teams structure client code, not a single-screen tutorial.
 

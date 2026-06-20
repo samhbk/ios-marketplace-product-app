@@ -1,0 +1,1 @@
+Senior-grade SwiftUI marketplace iOS client — MVVM, JWT auth, paginated REST, Keychain, favorites sync, XCTest, and CI. Pairs with laravel-marketplace-platform.
